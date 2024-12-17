@@ -1,0 +1,42 @@
+.input_wrapper {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 5px;
+}
+
+.input_label {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: black;
+  cursor: pointer;
+}
+
+.input {
+  outline: none;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border: solid 2px black;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: black;
+}
+.input::placeholder {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.226);
+}
+
+.input:focus {
+  border: solid 2px green;
+}

@@ -1,0 +1,64 @@
+.form {
+  margin-top: 25px;
+  border: solid 2px black;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 215px;
+  gap: 15px;
+  border-radius: 5px;
+}
+
+.label_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: black;
+}
+.input {
+  outline: none;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border: solid 2px black;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: black;
+}
+.input::placeholder {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.226);
+}
+
+.input:focus {
+  border: solid 2px green;
+}
+
+.btn_submite {
+  cursor: pointer;
+  height: 40px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: black;
+}
+
+.errprMessage {
+  color: red;
+}

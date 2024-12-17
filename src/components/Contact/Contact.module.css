@@ -1,0 +1,36 @@
+.contact_data {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.contact_icon {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.contact_name,
+.contact_number {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: black;
+}
+
+.btn_delete {
+  cursor: pointer;
+  height: 40px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: black;
+}
